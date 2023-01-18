@@ -12,8 +12,117 @@
             href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
             rel="stylesheet"
         />
+        <!-- Icon -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        />
+        <!-- Reset Css -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
         <!-- Link -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
     </head>
-    <body></body>
+    <body>
+        <main>
+            <!-- Header -->
+            <header class="header">
+                <div class="content">
+                    <nav>
+                        <ul class="menu">
+                            <li>
+                                <a href="#!">
+                                    <img
+                                        src="./assets/img/salt.png"
+                                        alt="logo"
+                                        class="logo"
+                                    />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!">Marketplace</a>
+                            </li>
+                            <li>
+                                <a href="#!">Create NFT</a>
+                            </li>
+                            <li>
+                                <div class="box-search">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <input
+                                        type="text"
+                                        name="search"
+                                        id="search"
+                                        placeholder="Search by Collection"
+                                    />
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#!" class="cardano">
+                                    <img
+                                        src="./assets/img/round.png"
+                                        alt="Cardano Chain"
+                                    />
+                                    <span>Cardano Chain</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="btn">Connect</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <!-- Contract -->
+            <div class="contract">
+                <div class="content">
+                    <div class="image">
+                        <img
+                            src="https://images.unsplash.com/photo-1624280433509-b01afeaf68e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1315&q=80"
+                            alt="Technology"
+                        />
+                    </div>
+                    <form action="" id="form">
+                        <div class="box-center">
+                            <div class="box-input">
+                                <label for="address">CONTRACT ADDRESS </label>
+                                <input
+                                    type="text"
+                                    name="address"
+                                    id="address"
+                                    placeholder="Ox..."
+                                />
+                            </div>
+                            <div class="box-input">
+                                <label for="token">TOKEN ID</label>
+                                <input
+                                    type="text"
+                                    name="token"
+                                    id="token"
+                                    placeholder="Your Id..."
+                                />
+                            </div>
+
+                            <input
+                                type="submit"
+                                value="View transcation history"
+                                id="submit"
+                            />
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Continue -->
+            <div class="coming-soon">
+                Coming Soon...
+            </div>
+
+            <!-- Footer -->
+            <footer>
+                <span class="copyright">
+                    &#169 2023-2024salt3.com
+                </span>
+            </footer>
+        </main>
+    </body>
 </html>
